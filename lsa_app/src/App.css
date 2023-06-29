@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+@font-face {
+ font-family: "LSA_font";
+ src: local("LSA_font"),
+  url("./g_assets/fonts/lsa.ttf") format("truetype");
+ font-weight: bold;
+}
+
+
+
+
+/* SMALL DEVICES */
+@media screen and (max-width: 30em) {
+body{
+  background:rgba(0,0,0,.8);
+}
+.input_text_orig{
+  min-width:100%;
+  font-size:2rem;
+  background:black;
+  color:orange;
+  text-align:center;
+}
+.texto_prueba{
+  min-width:100%;
+  min-height:100%;
+  background:black;
+  text-align:center;
+  padding:2rem;
+  color:white;
+  font-family: "LSA_font";
+  font-size:4rem;
+}
+  
+}
+
+/* BIG DEVICES */
+@media screen and (min-width: 30em) {
+body{
+  background:rgba(0,0,0,.8);
+}
+.input_text_orig{
+  min-width:100%;
+  min-height:3rem;
+  text-align:center;
+  font-size:2rem;
+  background:black;
+  color:orange;
+}
+.texto_prueba{
+  padding:3rem;
+  max-width:70vw;
+  max-height:50vh;
+  color:white;
+  font-family: "LSA_font";
+  font-size:6rem;
+}
+  
+}
